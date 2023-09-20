@@ -19,7 +19,7 @@ export default function Stories() {
     //     console.log(storyUsers);
     // }, []);
     return (
-        <div class="absolute scale-125 left-1/2 transform -translate-x-1/2 opacity-80 top-24 flex justify-center items-center shadow-black shadow-lg opacity-80 bg-gradient-to-b from-gray-600 to-gray-600 rounded-full">
+        <div class="absolute overflow-x-scroll scrollbar-none mt-2 scale-125 left-1/2 transform -translate-x-1/2 opacity-90 top-24 flex justify-center items-center shadow-black shadow-lg bg-gradient-to-b from-gray-600 to-gray-600 rounded-full">
             <div className="flex space-x-1 p-3">
                 <Story src="/ba12.jpg" />
                 <Story src="/ba13.jpg" />

@@ -34,10 +34,10 @@ export default function Header() {
           </svg>
 
           <Image 
-          className='h-15 cursor-pointer rounded-full hover:scale-125 transition-transform duration-200 ease-out">'
+          className='h-15 p-[1.5px] border border-gray-500 hover:border-purple-500 cursor-pointer rounded-full hover:scale-125 transition-transform duration-200 ease-out">'
           src='/boredape.jpg'
-          width={50}
-          height={50}
+          width={55}
+          height={55}
           alt='user-image'
           />
         </div>
