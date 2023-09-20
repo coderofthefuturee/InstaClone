@@ -5,8 +5,8 @@ import SearchBox from './Search'
 
 export default function Header() {
   return (
-    <div class="relative w-full">
-      <div class="absolute opacity-60 top-0 left-0 w-full h-full bg-gradient-to-b from-gray-900 to-gray-900 rounded-full"></div>
+    <div class="sticky top-0 w-full">
+      <div class="absolute shadow-black shadow-lg opacity-80 top-0 left-0 w-full h-full bg-gradient-to-b from-gray-900 to-gray-900 rounded-full"></div>
       <div className="relative lg:justify-center p-1 flex place-items-center">
 
         {/* ...pseudo elements for the background... */}
