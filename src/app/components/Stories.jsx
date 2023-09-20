@@ -19,7 +19,7 @@ export default function Stories() {
     //     console.log(storyUsers);
     // }, []);
     return (
-        <div class="absolute overflow-x-scroll scrollbar-none sm:mt-2 lg:mt-5 md:mt-4 scale-125 lg:w-auto md:w-auto sm:w-4/5 left-1/2 transform -translate-x-1/2 opacity-90 top-24 flex justify-center items-center shadow-black shadow-lg bg-gradient-to-b from-gray-600 to-gray-900 rounded-full">
+        <div class="absolute overflow-x-scroll scrollbar-none sm:mt-2 lg:mt-5 md:mt-4 scale-125 lg:w-auto md:w-auto sm:w-4/5 left-1/2 transform -translate-x-1/2 opacity-100 top-24 flex justify-center items-center shadow-black shadow-lg bg-gradient-to-b from-gray-600 to-gray-900 rounded-full">
             <div className="flex cursor-pointer space-x-1 lg:space-x-1 md:space-x-1 sm:space-x-2 p-4 sm:p-3">
                 <Story src="/ba12.jpg" id='1' />
                 <Story src="/ba13.jpg" id='2' />
