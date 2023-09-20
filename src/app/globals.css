@@ -35,7 +35,7 @@ body {
     radial-gradient(circle at 100% 20%, rgb(255, 0, 247) 0%, transparent 38%);
   background-repeat: no-repeat;
   background-position: bottom left, top right;
-  background-size: 50% 50%, 50% 50%;
+  background-size: 50% 40%, 50% 50%;
 }
 
 .instagram-gradient {
