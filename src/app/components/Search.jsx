@@ -16,7 +16,7 @@ export default function SearchBox() {
   }
   return (
     <form
-        className="flex border-2 border-gray-600 rounded-full shadow-lg px-6 py-3 ml-10 mr-5 max-w-small items-center focus-within:border-4 focus-within:border-gray-800"
+        className="flex mr-8 border-4 border-gray-700 rounded-full shadow-lg px-6 py-3 ml-10 max-w-small items-center focus-within:border-4 focus-within:border-purple-800 transition-transform duration-200 ease-out"
         onSubmit={handleSubmit}
     >
       <input
@@ -26,7 +26,7 @@ export default function SearchBox() {
         value={term}
         onChange={(e) => setTerm(e.target.value)}
       />
-      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 cursor-pointer text-gray-500 hover:text-purple-600 hover:w-7 hover:h-7 hover:border-black">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 cursor-pointer text-gray-500 hover:text-purple-600 hover:border-black ">
         <path strokeLinecap="round" strokeLinejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z" />
       </svg>
 
