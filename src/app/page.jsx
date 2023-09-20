@@ -20,13 +20,7 @@ export default function Home() {
         <Header />
 
         {/* Feed */}
-        <p>
-        “One high-stakes and extremely competitive environment in which AI systems operate today is the global financial market. Automated stock-trading systems are widely used by major investing houses. While some of these are simply ways of automating the execution of particular buy or sell orders issued by a human fund manager, others pursue complicated trading strategies that adapt to changing market conditions. Analytic systems use an assortment of data-mining techniques and time series analysis to scan for patterns and trends in securities markets or to correlate historical price movements with external variables such as keywords in news tickers. Financial news providers sell newsfeeds that are specially formatted for use by such AI programs. Other systems specialize in finding arbitrage opportunities within or between markets, or in high-frequency trading that seeks to profit from minute price movements that occur over the course of milliseconds (a timescale at which communication latencies even for speed-of-light signals in optical fiber cable become significant, making it advantageous to locate computers near the exchange). Algorithmic high-frequency traders account for more than half of equity shares traded on US markets.69 Algorithmic trading has been implicated in the 2010 Flash - PG 37
-
-“Consider first whole brain emulation. The difficulties involved in creating the first human emulation are of a quite different kind from those involved in enhancing an existing emulation. Creating a first emulation involves huge technological challenges, particularly in regard to developing the requisite scanning and image interpretation capabilities. This step might also require considerable amounts of physical capital—an industrial-scale machine park with hundreds of high-throughput scanning machines is not implausible. By contrast, enhancing the quality of an existing emulation involves tweaking algorithms and data structures: essentially a software problem, and one that could turn out to be much easier than perfecting the imaging technology needed to create the original template. Programmers could easily experiment with tricks like increasing the neuron count in different cortical areas to see how it affects performance.7 They also could work on code optimization and on finding simpler computational models that preserve the essential functionality of individual neurons or small networks of neurons. If the last technological prerequisite to fall into place is either scanning or translation, with computing power being relatively abundant, then not much attention might have been given during the development phase to implementational efficiency, and easy opportunities PG 93
-
-
-        </p>
+        
         {/* <Feed /> */}
 
         {/* Modal */}
