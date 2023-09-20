@@ -5,7 +5,7 @@ export default function Posts() {
     const posts = [
         {
             id: '1',
-            username:"codewithhammer",
+            username:"YachtClubApe",
             userImg: "/boredape.jpg",
             img: "/ba1.png",
             caption: 'Nice car'
