@@ -2,7 +2,133 @@
 @tailwind components;
 @tailwind utilities;
 
+/* perfect static colors */
 :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0; 
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(var(--background-start-rgb)); 
+  background-image: 
+    radial-gradient(circle at 0% 100%, rgba(150, 33, 255, 1) 0%, transparent 45%),
+    radial-gradient(circle at 100% 20%, rgb(255, 0, 247) 0%, transparent 38%);
+  background-repeat: no-repeat;
+  background-position: bottom left, top right;
+  background-size: 50% 50%, 50% 50%;
+}
+
+.instagram-gradient {
+  background: linear-gradient(45deg, #dc2743, #cc2366, #bc1888,#8400ff, #004cff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 0, 0, 0;
+  --background-end-rgb: 0, 0, 0;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+@keyframes moveGradientLeft {
+  0% {
+    background-position: 0% 100%, 100% 0%;
+  }
+  100% {
+    background-position: 0% 0%, 100% 100%;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background-color: rgb(var(--background-start-rgb));
+  background-image:
+    radial-gradient(circle at 50% 50%, rgba(150, 33, 255, 1) 0%, transparent 48%),
+    radial-gradient(circle at 50% 50%, rgb(255, 0, 115) 0%, transparent 48%);
+  background-repeat: no-repeat;
+  background-size: 30% 30%, 30% 30%;  Reduced to 45% of the previous size
+  animation: moveGradientLeft 8s alternate infinite;
+} 
+
+
+/* pink purple colors top white background */
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background:
+    linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))),
+    radial-gradient(circle at top right, rgba(150, 33, 255, 1) 50%, transparent 51%),
+    radial-gradient(circle at top left, rgba(255, 33, 150, 1) 50%, transparent 51%);
+  background-repeat: no-repeat;
+  background-position: center, 100% 100%, 0% 100%;
+  background-size: 100% 100%, 200% 200%, 200% 200%;
+} */
+
+
+
+/* original white colors */ 
+/* :root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+  --purple-gradient: 150, 33, 255;
+  --reddish-gradient: 255, 33, 150;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: 
+    linear-gradient(to bottom, transparent, rgb(var(--background-end-rgb))),
+    linear-gradient(to top right, transparent 50%, rgb(var(--purple-gradient)) 100%),
+    linear-gradient(to top left, transparent 50%, rgb(var(--reddish-gradient)) 100%);
+  background-repeat: no-repeat;
+  background-position: center, bottom left, bottom right;
+  background-size: 100% 100%, 50% 50%, 50% 50%;
+} */
+
+
+/* :root {
   --foreground-rgb: 0, 0, 0;
   --background-start-rgb: 214, 219, 220;
   --background-end-rgb: 255, 255, 255;
@@ -24,4 +150,5 @@ body {
       rgb(var(--background-end-rgb))
     )
     rgb(var(--background-start-rgb));
-}
+} */
+
