@@ -1,5 +1,9 @@
+"use client"
 import React from 'react'
 import Image from 'next/image'
+import { signOut } from 'next-auth/react'
+
+
 
 export default function MiniProfile() {
     return (
@@ -16,7 +20,7 @@ export default function MiniProfile() {
             <h2 className='font-bold'>ApeYachtClub</h2>
             <h3 className="text-sm text-gray-400">Welcome to IG</h3>
         </div>
-        <button className='font-semibold border-2 hover:text-white hover:border-purple-600 border-gray-800 p-2 rounded-full hover:text-bold hover:scale-125 text-blue-400 transition-transform duration-200 ease-out'>Sign Out</button>
+        <button onClick={() => signOut()} className='font-semibold border-2 hover:text-white hover:border-purple-600 border-gray-800 p-2 rounded-full hover:text-bold hover:scale-125 text-blue-400 transition-transform duration-200 ease-out'>Sign Out</button>
     </div>
 
   );
