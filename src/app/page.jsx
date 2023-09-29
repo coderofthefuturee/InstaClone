@@ -6,8 +6,6 @@ import Feed from "../components/Feed";
 
 export default function Home() {
   return (
-    
-
     <main className="flex px-5 p-3 lg:px-20 min-h-screen flex-col justify-start">
       <div className="min-h-screen">
         <Head>

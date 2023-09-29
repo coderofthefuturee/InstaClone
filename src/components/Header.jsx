@@ -3,7 +3,7 @@ import React from 'react'
 import SearchBox from './Search'
 import Link from 'next/link'
 
-export default function Header() { 
+export default async function Header() { 
   return (
     <div className="sm:p-1 z-50 flex justify-center items-center sticky top-0 w-full">
       <div className="absolute lg:max-w-4xl shadow-black shadow-lg opacity-90 top-0 left-50% transform -translate-x-50% w-full h-full bg-gradient-to-b from-gray-900 to-gray-900 rounded-full"></div>

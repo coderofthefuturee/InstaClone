@@ -20,7 +20,7 @@ export default function SearchBox() {
         onSubmit={handleSubmit}
     >
       <input
-        placeholder="Search.."
+        placeholder="Educational purposes."
         type="text"
         className="focus:outline-none bg-transparent text-white"
         value={term}
