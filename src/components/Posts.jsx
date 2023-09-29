@@ -29,7 +29,6 @@ export default function Posts() {
     
     <div>
         {posts.map((post, index) => {
-            const paddingClass = index === 0 ? 'p-40' : 'p-10';
             return (
                 <Post 
                     key={post.id}
@@ -38,7 +37,6 @@ export default function Posts() {
                     userImg={post.userImg}
                     img={post.img}
                     caption={post.caption}
-                    className={paddingClass}
                 />
             );
         })}

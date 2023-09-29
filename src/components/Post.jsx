@@ -17,8 +17,8 @@ export default function Post({img, userImg, caption, username, id}) {
             </div>
             <img src={userImg} class="border-4 rounded-2xl border-gray-900" alt="img" width={600} height={600} />
             <div className='border-gray-800 border-4 rounded-full'>
-                <div className='flex justify-between px-7 sm:px-5 p-2'>
-                    <div className='flex mt-2 space-x-8 sm:space-x-5 btn'>
+                <div className='flex justify-between px-4 p-2'>
+                    <div className='flex mt-2 space-x-3 btn'>
                         <HeartIcon className='btn lg:mr-5 md:mr-5 sm:mr-1 hover:fill-red-600' />
                         <ChatIcon className='btn hover:fill-blue-400' />
                     </div>

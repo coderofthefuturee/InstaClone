@@ -36,6 +36,7 @@ body {
   background-repeat: no-repeat;
   background-position: bottom left, top right;
   background-size: 50% 40%, 50% 40%;
+
 }
 
 .instagram-gradient {
@@ -44,6 +45,31 @@ body {
   -webkit-background-clip: text;
   color: transparent;
 }
+
+/* globals.css */
+
+/* globals.css */
+@media (max-width: 640px) {
+  .hide-on-small {
+    display: none !important;
+  }
+}
+
+/* styles.css */
+
+.mySection {
+  padding-left: 180px;
+}
+
+/* Reset padding-left for large screens */
+@media (min-width: 500px) {
+  .mySection {
+    padding-left: 0;
+  }
+}
+
+
+
 
 
 /* :root {

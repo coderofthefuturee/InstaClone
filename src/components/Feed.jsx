@@ -7,7 +7,7 @@ import Suggestions from './Suggestions'
 export default function Feed() {
   return (
     <main className='grid grid-cols-1 md:grid-col-3 md:max-w-6xl mx-auto'>
-        <section className='md:col-span-2 mt-negative space-y-40'>
+        <section className='md:col-span-2 mt-negative space-y-40 mySection'>
             <Stories />
             <Posts />
         </section>
@@ -19,9 +19,6 @@ export default function Feed() {
                 <Suggestions />
             </div>
         </section>
-
-
-
     </main>
   )
 }
